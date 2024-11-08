@@ -1,0 +1,30 @@
+ul{
+    background-color: lightblue;
+    list-style-type:numbers;
+    margin-top: 10px;
+
+}
+
+li{
+    
+    margin-top: 10px;
+    
+}
+
+[data-available=true]{
+    background-color: rgb(52, 142, 147);
+   
+}
+
+[data-available=false]{
+    background-color:rgb(26, 67, 204);
+    font-weight: bold;
+    
+    
+}
+
+[data-category=Electronics]{
+ 
+list-style-type: upper-alpha ;
+
+}
